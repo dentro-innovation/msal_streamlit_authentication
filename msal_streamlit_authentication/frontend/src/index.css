@@ -1,27 +1,26 @@
-#root {
-  padding: 0.5rem;
-}
-
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-
-  color-scheme: light dark;
-
+body {
+  margin: 0;
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid;
   padding: 0.6em 1.2em;
   font-size: inherit;
   font-weight: inherit;
-  font-family: inherit;
-  background-color: inherit;
+  font-family: sans-serif;
   cursor: pointer;
+  border-radius: 0;
+  border: 1px solid #fff;
+  color: #fff;
+  background: #000;
 }
+
 button:hover {
-  border-color: #646cff;
+  border: 1px solid #fff;
+  color: #000;
+  background: #fff;
+  transition: .5s;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
